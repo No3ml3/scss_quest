@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+.cir1 {
+  width: 100px;
+  height: 100px;
+  border: 5px solid orange;
+  border-radius: 50%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.cir2 {
+  width: 300px;
+  height: 300px;
+  border: 15px solid yellow;
+  border-radius: 50%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.cir3 {
+  margin-bottom: 3rem;
+}
+
+.cir3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cir3 span {
+  display: flex;
+}
+
+.cir3 span:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  grid-row: 1;
+  z-index: 1;
+  margin-right: calc(-1*8px);
+}
+
+.cir3 span:nth-child(2) {
+  width: 80px;
+  height: 80px;
+  border: 4px solid grey;
+  border-radius: 50%;
+  grid-row: 1;
+  z-index: 2;
+  margin-right: calc(-2*8px);
+}
+
+.cir3 span:nth-child(3) {
+  width: 120px;
+  height: 120px;
+  border: 6px solid grey;
+  border-radius: 50%;
+  grid-row: 1;
+  z-index: 3;
+  margin-right: calc(-3*8px);
+}
+
+.cir3 span:nth-child(4) {
+  width: 160px;
+  height: 160px;
+  border: 8px solid grey;
+  border-radius: 50%;
+  grid-row: 1;
+  z-index: 4;
+  margin-right: calc(-4*8px);
+}
+
+.cir3 span:nth-child(5) {
+  width: 200px;
+  height: 200px;
+  border: 10px solid grey;
+  border-radius: 50%;
+  grid-row: 1;
+  z-index: 5;
+  margin-right: calc(-5*8px);
+}
+
+.cir3 span:nth-child(6) {
+  width: 240px;
+  height: 240px;
+  border: 12px solid grey;
+  border-radius: 50%;
+  grid-row: 1;
+  z-index: 6;
+  margin-right: calc(-6*8px);
+}
+
+.circle1, .circle2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.circle1 > p, .circle2 > p {
+  font-size: 3rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Caveat", cursive;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+body > header {
+  padding: 0px;
+}
+
+header {
+  background-color: orange;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+nav h1, nav li, footer li {
+  color: white;
+}
+
+nav h1 {
+  margin: 0px;
+  font-size: 1.9rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  margin-bottom: 3rem;
+}
+
+.why {
+  height: 20px;
+  width: 1px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: orange;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  height: 8rem;
+  font-size: 1.2rem;
+}
+
+footer ul div li, nav ul {
+  list-style-type: none;
+}
+
+.ringA1 {
+  border: solid calc(calc(1*10px)/8) #353535;
+  border-radius: 50%;
+  background-color: transparent;
+  height: calc(1*10px);
+  width: calc(1*10px);
+  margin: calc(calc(1*10px)*0.2);
+  position: relative;
+  display: inline-block;
+  grid-row: 1;
+  z-index: 1;
+  margin-right: calc(-1*8px);
+}
+
+.ringA2 {
+  border: solid calc(calc(2*10px)/8) #353535;
+  border-radius: 50%;
+  background-color: transparent;
+  height: calc(2*10px);
+  width: calc(2*10px);
+  margin: calc(calc(2*10px)*0.2);
+  position: relative;
+  display: inline-block;
+  grid-row: 1;
+  z-index: 2;
+  margin-right: calc(-2*8px);
+}
+
+.ringA3 {
+  border: solid calc(calc(3*10px)/8) #353535;
+  border-radius: 50%;
+  background-color: transparent;
+  height: calc(3*10px);
+  width: calc(3*10px);
+  margin: calc(calc(3*10px)*0.2);
+  position: relative;
+  display: inline-block;
+  grid-row: 1;
+  z-index: 3;
+  margin-right: calc(-3*8px);
+}
+
+.ringA4 {
+  border: solid calc(calc(4*10px)/8) #353535;
+  border-radius: 50%;
+  background-color: transparent;
+  height: calc(4*10px);
+  width: calc(4*10px);
+  margin: calc(calc(4*10px)*0.2);
+  position: relative;
+  display: inline-block;
+  grid-row: 1;
+  z-index: 4;
+  margin-right: calc(-4*8px);
+}
+
+.ringA5 {
+  border: solid calc(calc(5*10px)/8) #353535;
+  border-radius: 50%;
+  background-color: transparent;
+  height: calc(5*10px);
+  width: calc(5*10px);
+  margin: calc(calc(5*10px)*0.2);
+  position: relative;
+  display: inline-block;
+  grid-row: 1;
+  z-index: 5;
+  margin-right: calc(-5*8px);
+}
+
+.ringA6 {
+  border: solid calc(calc(6*10px)/8) #353535;
+  border-radius: 50%;
+  background-color: transparent;
+  height: calc(6*10px);
+  width: calc(6*10px);
+  margin: calc(calc(6*10px)*0.2);
+  position: relative;
+  display: inline-block;
+  grid-row: 1;
+  z-index: 6;
+  margin-right: calc(-6*8px);
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  margin: auto;
+}
+
+.containter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring1 {
+  border: solid calc(40px/8) #FF6C0A;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin: calc(40px*0.2);
+  position: relative;
+  display: inline-block;
+}
+
+.ring2 {
+  border: solid calc(60px/8) #FCCA01;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  margin: calc(60px*0.2);
+  position: relative;
+  display: inline-block;
+}
